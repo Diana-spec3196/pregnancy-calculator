@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор беременности - ГКБ №15</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Дополнительные стили для логотипа */
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .logo {
+            max-width: 200px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .header-text {
+            text-align: center;
+        }
+        .header-text h1 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: #2a5885;
+        }
+        .header-text p {
+            margin: 5px 0 0;
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <!-- Шапка с логотипом -->
+        <div class="header">
+            <img src="знак_гкб.png" alt="Логотип ГКБ №15" class="logo">
+            <div class="header-text">
+                <h1>ГОРОДСКАЯ КЛИНИЧЕСКАЯ БОЛЬНИЦА №15</h1>
+                <p>имени О.М. Филатова</p>
+            </div>
+        </div>
+
+        <!-- Остальной код калькулятора -->
+        <div class="tabs">
+            <div class="tab active" onclick="switchTab('lastPeriodTab')">По менструации</div>
+            <!-- ... остальные вкладки ... -->
+        </div>
+        
+        <!-- ... остальное содержимое калькулятора ... -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
